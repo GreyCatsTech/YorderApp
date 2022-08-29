@@ -31,7 +31,7 @@ namespace YorderApp.Droid
             var builder = new CustomTabsIntent.Builder().EnableUrlBarHiding();
             var customTabsIntent = builder.Build();
             Android.Net.Uri websiteurl = Android.Net.Uri.Parse("https://www.greycats.tech");
-            customTabsIntent.LaunchUrl(this, websiteurl);
+           // customTabsIntent.LaunchUrl(this, websiteurl);
            // Android.Support.CustomTabs.TrustedWebUtils.LaunchAsTrustedWebActivity(this,customTabsIntent,Android.Net.Uri.Parse("https://greycats.tech"));
            
             LoadApplication(new App());
